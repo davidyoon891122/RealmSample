@@ -10,7 +10,7 @@ import RealmSwift
 
 class DictionaryRealm: Object {
     @objc dynamic var stringDate = ""
-    let todolists = [Todo]()
+    var todolists = List<Todo>()
 }
 
 
